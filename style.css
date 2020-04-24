@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+header {
+    width: 850px;
+    height: 330px;
+    background-color:#3b5998;
+    margin: auto;
+    position: relative;
+    top: 5px;
+}
+
+.header-bg {
+    width: 850px;
+    height: 300px;
+    background-color: #3b5998;
+    border-radius: 4px;
+}
+
+.profile-heading {
+    height: 65px;
+    background-color: #3b5998;
+    position: relative;
+    bottom: 100px;
+}
+nav {
+    height: 50px;
+    width: 850px;
+    background-color:white;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    margin: auto;
+    position: relative;
+    top: 115px;
+}
+nav ul {
+    list-style: none;
+    font-family: sans-serif;
+    color:black;
+    position: relative;
+    left: 140px;
+    
+}
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+.profile-photo {
+    background-image: url(https://ca.slack-edge.com/TCNHBFEG3-UV2029AG3-ab35dab71b67-512);
+    height: 175px;
+    width: 175px;
+    border-radius: 2%;
+    border: .5px solid rgb(29, 28, 28);
+    position: relative;
+    left: 10px;
+    top: -75px;
+    background-size: contain;
+}
+
+.profile-name {
+    height: 75px;
+    width: 350px;
+    position: relative;
+    top: -200px;
+    left: 195px ;
+}
+
+.profile-name h1 {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+
+.profile-name h3 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: white;
+    position: relative;
+    top: -15px;
+}
+
+.like-follow-message {
+    height: 30px;
+    width: 30%;
+    float: right;
+    position: relative;
+    top: -235px;
+}
+.Follow {
+    border-radius: 5%;
+    position: relative;
+    left: 4px;
+}
+.dots {
+    border-radius: 5%;
+    position: relative;
+    left: -4px;
+}
+.Like {
+    border-radius: 5%;
+}
+.Message {
+    border-radius: 5%;
+}
+
+.left-column {
+    width: 328px;
+    height: 200px;
+    background-color:white;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    position: relative;
+    top: -125px;
+    
+}
+
+.about_me {
+    width: 327px;
+    height: 130px;
+    border: 1px solid lightgray;
+    position: relative;
+    top: 30px;
+}
+
+.about_me_title {
+    width: 327px;
+    height: 30px;
+    font-family: sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: -15px;
+    left: 8px;
+}
+
+.about_me_info {
+    width: 324px;
+    height: 30px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #3b5998;
+    font-size: 15px;
+    position: relative;
+    top: -30px;
+    left: 8px;
+}
+
+.website_link {
+    width: 327px;
+    height: 30px;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #3b5998;
+    position: relative;
+    top: 15px;
+    left: 8px;
+}
+.right-column {
+    width: 512px;
+    height: 285px;
+    border: 1px solid lightgray;
+    background-color:white;
+    border-radius: 2px;
+    position: absolute;
+    top: 192px;
+    left: 338px;
+}
+
+.cover_photo {
+    width: 500px;
+    height: 185px;
+    border: 1px solid lightgray;
+    background-color:#3b5998 ;
+    position: relative;
+    top: -30px;
+    left: 5px;
+}
+
+.mini_profile_photo {
+    width: 40px;
+    height: 40px;
+    background-image: url(https://ca.slack-edge.com/TCNHBFEG3-UV2029AG3-ab35dab71b67-512);
+    position: relative;
+    top: -45px;
+    left: 10px;
+    background-size: contain;
+}
+
+.like_bar {
+    width: 511px;
+    height: 35px;
+    border: 1px solid lightgray;
+    background-color: rgb(245, 245, 245);
+    position: relative;
+    top: -25px;
+}
+
+.like_bar p {
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #3b5998;
+    position: relative;
+    left: 10px;
+}
+
+.action ul {
+    width: 400px;
+    color: rgb(156, 156, 156);
+    font-size: 12px;
+    font-family: sans-serif;
+    list-style: none;
+    position: relative;
+    left: 20px;
+}
+
+.bluetext1 {
+    color: #3b5998;
+    font-weight: bolder;
+}
+
+.bluetext2 {
+    color: #3b5998;
+}
